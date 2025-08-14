@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "tennis-vision"
+version = "0.1.0"
+description = "Tennis match video analysis with OpenCV"
+authors = ["Gabriel"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11.9"
+opencv-python = "^4.8.0"
+numpy = "^1.24.0"
+ultralytics = "^8.0.0"
+pandas = "^2.0.0"
+matplotlib = "^3.7.0"
+scikit-image = "^0.21.0"
+scipy = "^1.11.0"
+shapely = "^2.0.0"
+mediapipe = "^0.10.0"
+streamlit = "^1.28.0"
+lapx = "^0.5.0"
+norfair = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.0.0"
+mypy = "^1.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
