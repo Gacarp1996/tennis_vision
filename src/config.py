@@ -36,7 +36,7 @@ class Config:
     })
     
     # === DETECCIÓN Y TRACKING ===
-    yolo_model: str = "yolov8n.pt"  # Modelo base, cambiaremos a uno específico
+    yolo_model: str = "models/tennis_ball.pt"  # Modelo base, cambiaremos a uno específico
     yolo_conf_threshold: float = 0.25
     yolo_iou_threshold: float = 0.45
     

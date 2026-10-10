@@ -1,0 +1,16 @@
+# Modelos descargados (regenerables con scripts/download_models.py)
+models/*.pt
+# Frames extraidos (regenerables con extract_frames.py)
+frames_video*/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Secretos
+.env*
+# Scripts de prueba con API key de Roboflow hardcodeada (repo PUBLICO): no subir hasta mover la key a .env
+test/detector_funcionando.py
+test/detector_pelota.py
+test/test_roboflow_api.py
+test/test_roboflow_real.py
